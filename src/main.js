@@ -5,7 +5,14 @@ import store from './store'
 
 import './styles/index.less'
 
+import { Tabbar, TabbarItem } from 'vant';
+
+Vue.use(Tabbar);
+Vue.use(TabbarItem);
+
+
 Vue.config.productionTip = false
+
 
 new Vue({
   router,
